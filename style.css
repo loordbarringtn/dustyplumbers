@@ -6,25 +6,19 @@ h1 {
   font-family: "Original Surfer", cursive;
   font-weight: 700;
   color: aliceblue;
-  font-size: 5rem;
+  font-size: 5vw;
   position: relative;
   top: 25%;
   left: 30%;
 }
 
 header {
-  height: 4.4rem;
+  min-height: 4.4rem;
   display: flex;
   position: fixed;
   flex-direction: row;
-
-  /* align-content: space-around; */
-
   justify-content: space-around;
   align-content: center;
-  
-  
-  
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
@@ -42,7 +36,6 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* align-content: space-around; */
 }
 
 ul li {
@@ -114,6 +107,19 @@ main {
   margin: auto;
 }
 
+.freakteamcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.teamimage {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
 h2 {
   font-size: 2.2rem;
   font-family: "Original Surfer", cursive;
@@ -124,19 +130,6 @@ h3 {
   margin-top: 1rem;
   font-size: 1.6rem;
   font-family: "Original Surfer", cursive;
-}
-
-.freakteamcontainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.teamimage {
-  height: 18rem;
-  width: auto;
-  border-radius: 15px;
-  object-fit: cover;
 }
 
 footer {
@@ -156,64 +149,59 @@ footer h3 {
   font-weight: 700;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 896px)  {
+@media only screen and (min-device-width: 375px) and (max-device-width: 896px) {
+  header {
+    height: 2.5rem;
+  }
 
-    header {
-      height: 2rem;;
-    }
+  main {
+    margin-top: 2.5rem;
+  }
 
-    main {
-      margin-top: 2rem;
-    }
-    
-    .logo {
-      height: 1.6rem;
-      width: auto;
-      margin: 0.1rem 0.1rem;
-    }
+  .logo {
+    height: 1.6rem;
+    width: auto;
+    margin: 0.1rem 0.1rem;
+  }
 
-    #plumberphoto {
-      height: 14rem;
-    }
+  #plumberphoto {
+    height: 14rem;
+  }
 
-    h1 {
-      font-size: 1.5rem;
-    }
+  h1 {
+    font-size: 1.5rem;
+  }
 
-    h2 {
-      font-size: 1.2rem;
-      margin-bottom: 0.5rem;
-    }
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
 
-    h3 {
-      margin-top: 0.5rem;
-      font-size: 0.8125rem;
-    }
+  h3 {
+    margin-top: 0.5rem;
+    font-size: 0.8125rem;
+  }
 
-    li a {
-      font-size: 0.5rem;
-    }
+  li a {
+    font-size: 0.5rem;
+  }
 
-    .ourservices p {
-      margin-top: 0.1125rem;
-      font-size: 0.8rem;
-    }
+  .ourservices p {
+    margin-top: 0.1125rem;
+    font-size: 0.8rem;
+  }
 
-    .ourservice img {
-      height: 5.4rem;
-      width: auto;
-    }
+  .ourservice img {
+    height: 5.4rem;
+    width: auto;
+  }
 
-    .teamimage {
-      height: 5.7rem;
-    }
+  .teamimage {
+    height: 5.5rem;
+    width: auto;
+  }
 
-    .freakteamcontainer h3 {
-      font-size: 0.3rem;
-    }
-
+  .freakteamcontainer h3 {
+    font-size: 0.3rem;
+  }
 }
-
-
