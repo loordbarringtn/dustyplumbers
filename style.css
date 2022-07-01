@@ -1,0 +1,219 @@
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Original Surfer", cursive;
+  font-weight: 700;
+  color: aliceblue;
+  font-size: 5rem;
+  position: relative;
+  top: 25%;
+  left: 30%;
+}
+
+header {
+  height: 4.4rem;
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+
+  /* align-content: space-around; */
+
+  justify-content: space-around;
+  align-content: center;
+  
+  
+  
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  z-index: 100;
+  background-color: snow;
+  top: 0;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 0.9rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-content: space-around; */
+}
+
+ul li {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+li a {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  text-shadow: 0.125rem 0.125rem 0.5rem #ffd700;
+}
+
+.logo {
+  display: flex;
+  max-height: 3.4rem;
+  margin: 0.2rem 0.8rem;
+}
+
+main {
+  margin-top: 4.4rem;
+  position: relative;
+}
+
+#plumberphoto {
+  display: flex;
+  background-image: url("./images/unseen-histories-zKlmUuc7pBk-unsplash.jpg");
+  width: 98%;
+  height: 28rem;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#ourservices {
+  text-align: center;
+  margin: auto;
+}
+
+.ourservices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.ourservices p {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-family: "Original Surfer", cursive;
+}
+
+.ourservice img {
+  height: 15rem;
+  width: auto;
+}
+
+#freakteam {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-family: "Original Surfer", cursive;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-family: "Original Surfer", cursive;
+}
+
+.freakteamcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.teamimage {
+  height: 18rem;
+  width: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+footer {
+  display: flex;
+  flex-flow: flex-start;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  background-color: black;
+}
+
+footer h3 {
+  margin-left: 1rem;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-family: "Original Surfer", cursive;
+  font-weight: 700;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 896px)  {
+
+    header {
+      height: 2rem;;
+    }
+
+    main {
+      margin-top: 2rem;
+    }
+    
+    .logo {
+      height: 1.6rem;
+      width: auto;
+      margin: 0.1rem 0.1rem;
+    }
+
+    #plumberphoto {
+      height: 14rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      margin-top: 0.5rem;
+      font-size: 0.8125rem;
+    }
+
+    li a {
+      font-size: 0.5rem;
+    }
+
+    .ourservices p {
+      margin-top: 0.1125rem;
+      font-size: 0.8rem;
+    }
+
+    .ourservice img {
+      height: 5.4rem;
+      width: auto;
+    }
+
+    .teamimage {
+      height: 5.7rem;
+    }
+
+    .freakteamcontainer h3 {
+      font-size: 0.3rem;
+    }
+
+}
+
+
