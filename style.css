@@ -151,7 +151,7 @@ footer h3 {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 896px) {
   header {
-    height: 2.5rem;
+    min-height: 2.5rem;
   }
 
   main {
@@ -159,17 +159,13 @@ footer h3 {
   }
 
   .logo {
-    height: 1.6rem;
+    height: 1.4em;
     width: auto;
     margin: 0.1rem 0.1rem;
   }
 
   #plumberphoto {
     height: 14rem;
-  }
-
-  h1 {
-    font-size: 1.5rem;
   }
 
   h2 {
@@ -183,7 +179,7 @@ footer h3 {
   }
 
   li a {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
   }
 
   .ourservices p {
@@ -197,8 +193,12 @@ footer h3 {
   }
 
   .teamimage {
-    height: 5.5rem;
-    width: auto;
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .freakteamcontainer{
+    display: inline-flex;
   }
 
   .freakteamcontainer h3 {
