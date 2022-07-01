@@ -79,7 +79,7 @@ main {
 
 #ourservices {
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .ourservices {
@@ -110,7 +110,8 @@ main {
 .freakteamcontainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 90%;
 }
 
 .teamimage {
@@ -161,7 +162,7 @@ footer h3 {
   .logo {
     height: 1.4em;
     width: auto;
-    margin: 0.1rem 0.1rem;
+    margin: 0.3rem 0.1rem;
   }
 
   #plumberphoto {
@@ -193,15 +194,15 @@ footer h3 {
   }
 
   .teamimage {
-    height: 5rem;
-    width: 5rem;
-  }
-
-  .freakteamcontainer{
-    display: inline-flex;
+    height: 4rem;
+    width: auto;
   }
 
   .freakteamcontainer h3 {
     font-size: 0.3rem;
+  }
+
+  footer {
+    height: 3rem;
   }
 }
