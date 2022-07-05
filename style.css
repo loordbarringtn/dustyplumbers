@@ -153,6 +153,7 @@ footer h3 {
 
   header {
     min-height: 2.5rem;
+    flex-direction: column;
   }
 
   main {
@@ -160,9 +161,9 @@ footer h3 {
   }
 
   .logo {
-    max-height: 1.8rem;
-    width: 1.6rem;
-    margin: 0.1 0.2;
+    height: 2.1rem;
+    width: 2.1rem;
+    margin: 0.4rem auto 0;
   }
 
   #plumberphoto {
