@@ -149,18 +149,23 @@ footer h3 {
 @media only screen and (max-width: 896px) {
 
   header {
-    min-height: 2.5rem;
+    height: 4rem;
     flex-direction: column;
+    justify-content: center;
   }
 
   main {
-    margin-top: 2.5rem;
+    margin-top: 4rem;
   }
+
+  nav ul {
+    margin: auto 
+}
 
   .logo {
     height: 2.1rem;
     width: 2.1rem;
-    margin: 0.4rem auto 0;
+    margin: 0.3rem auto 0.1rem;
   }
 
   #plumberphoto {
